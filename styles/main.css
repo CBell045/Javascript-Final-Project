@@ -25,7 +25,7 @@ header {
 }
 
 div {
-    margin: 15px
+    margin: 20px
 }
 
 label {
@@ -71,12 +71,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #efefef;
     color: black;
-}
-
-section {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
 }
 
 
