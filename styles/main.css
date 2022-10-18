@@ -25,13 +25,23 @@ header {
 }
 
 div {
-    margin: 20px
+    margin: 0px
+}
+
+.matrix {
+    width: 10px;
+    margin: 0px;
 }
 
 label {
     display: inline-block;
     min-width: 120px;
     text-align: right;
+}
+
+input {
+    width: auto;
+    margin-top: 10px;
 }
 
 main {

@@ -19,38 +19,35 @@
             <li><a href="#">Resume</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Projects</a></li> -->
-            <li><a href="#" class="active">Translator</a></li>
+            <li><a href="#" class="active">Calculator</a></li>
         </ul>
     </nav>
     <header>
-        <h2>EngARuS Translator</h2>
+        <h2>Matrix Determinant Calculator</h2>
     </header>
     <main>
-        <article>Translates any word to English, Armenian, Russian, and Spanish!</article>
+        <article>Input the entries of a 2x2 matrix to find its determinant.</article>
+        <hr>
         <article>
-            <div>
-                <label for="input">Input:</label>
-                <input type="text" id="input" name="input">
-            <div>
             <span>
-                <label for="english">English:</label>
-                <span id="english"></span>
-            <span>
-            <span>
-                <label for="armenian">Armenian:</label>
-                <span id="armenian"></span>
+                <input type="text" class="matrix" id="input1" name="input">
             </span>
             <span>
-                <label for="russian">Russian:</label>
-                <span id="russian"></span>
+                <input type="text" class="matrix" id="input2" name="input">
+            </span>
+            <div></div>
+            <span>
+                <input type="text" class="matrix" id="input3" name="input">
             </span>
             <span>
-                <label for="spanish">Spanish:</label>
-                <span id="spanish"></span>
+                <input type="text" class="matrix" id="input4" name="input">
             </span>
             <div>
-                <input type="button" id="translate" value="Translate">
+                <input type="button" id="calculate" value="Calculate">
                 <input type="button" id="clear" value="Clear">
+            </div>
+            <div>
+                <p id="determinant">Determinant: </p>
             </div>
         </article>
     </main>
